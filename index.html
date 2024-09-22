@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSAP SCROLL ANIMATION </title>
+    <link rel="stylesheet" href="output.css">
+    <style>
+    *{
+        box-sizing: border-box;
+    }
+  #card1{
+    background-color:#2e251e;
+  }
+  #card2{
+    background-color: #53473a;
+  }
+  #card3{
+    background-color: #7c5639;
+  }
+  #card4{
+    background-color:#584d42;
+  }
+  #span1 span{
+    display: inline-block;
+  }
+  #span1{
+    overflow:hidden;
+  
+  }
+  #card5{
+    background-color: #bd6826;
+  }
+ 
+    </style>
+</head>
+<body class="bg-black h-full w-full p-0 m-0 ">
+
+    <main class=" flex flex-col text-white items-center text-center gap-4 py-[15vh] w-full max-md:py-0">
+        <div id="card1" class="card  sticky top-[16vh] flex flex-col gap-4 items-center rounded-[25px] w-[25vw] py-[16vh] max-lg:w-full h-[100vh] p-0 m-0 top-[5vh]">
+            <img src="1.png" class="w-[180px] aspect-square ">
+        <h1 class="text-4xl font-thin">THE <br>
+            <span id="span1" CLASS="font-bold font-adi">ALGORITHM</span>
+            <p class="text-sm fon-adi py-5 mx-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit.Iste deserunt ducimus placeat aliquid quas!
+            </p>
+        </div>
+        <div id="card2" class="card card2 sticky top-[16vh] flex flex-col gap-4 items-center rounded-[25px] w-[25vw] py-[16vh]  max-lg:w-full h-[100vh] p-0 m-0 sticky top-[5vh]">
+            <img src="2.png" class="w-[180px] aspect-square ">
+        <h1 class="text-4xl font-thin">THE <br>
+            <span CLASS="font-bold">ARCHITECT</span>
+            <p class="text-sm fon-adi py-5 mx-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos libero deserunt est voluptates exercitationem?</p>
+        </div>
+        <div id="card3" class=" card card3 sticky top-[16vh] flex flex-col gap-4 items-center rounded-[25px] w-[25vw] py-[16vh] max-lg:w-full h-[100vh] p-0 m-0 ">
+            <img src="3.png" class="w-[180px] aspect-square ">
+        <h1 class="text-4xl font-thin">THE <br>
+            <span CLASS="font-bold">DOGMA</span>
+            <p class="text-sm fon-adi py-5 mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora numquam itaque at?</p>
+        </div>
+        <div id="card4" class=" card card4  sticky top-[16vh] flex flex-col gap-4 items-center rounded-[25px] w-[25vw] py-[16vh] max-lg:w-full h-[100vh] p-0 m-0 top-[5vh]">
+            <img src="4.png" class="w-[180px] aspect-square ">
+        <h1 class="text-4xl font-thin">THE <br>
+            <span CLASS="font-bold">PHYSICS</span>
+            <p class="text-sm fon-adi py-5 mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eum expedita culpa dolore soluta.
+            </p>
+        </div>
+        <div id="card5" class="card card5 sticky top-[16vh] flex flex-col gap-4 items-center rounded-[25px] w-[25vw] py-[16vh] max-lg:w-full h-[100vh] p-0 m-0 top-[5vh]">
+            <img src="5.png" class="w-[180px] aspect-square ">
+        <h1 class="text-4xl font-thin">THE <br>
+            <span CLASS="font-bold">DEDICATION</span>
+            <p class="text-sm fon-adi py-5 mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eum expedita culpa dolore soluta.
+            </p>
+        </div>
+    </main>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="scrpit.js"></script>
+</body>
+</html>
